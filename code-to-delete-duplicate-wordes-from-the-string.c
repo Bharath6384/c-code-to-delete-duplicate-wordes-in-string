@@ -4,6 +4,7 @@ int main(){
     char a[100];
     char w[100][100];
     int i,j,k,l;
+    printf("Enter a string\n");
     scanf("%[^\n]",a);
     while(a[i]!='\0'){
         k=0;
@@ -29,6 +30,7 @@ int main(){
             else k++;
             }
     }
+    printf("string without duplicate words: ");
     for(i=0;i<l;i++){
         printf("%s ",w[i]);
         
